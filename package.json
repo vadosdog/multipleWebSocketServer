@@ -7,5 +7,37 @@
     "https": "^1.0.0",
     "jsonwebtoken": "^8.2.2",
     "request-promise": "^4.2.2"
-  }
+  },
+  "name": "multiple-websocket-server",
+  "version": "1.0.0",
+  "description": "WebSocket Server with multi-channel support",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadosdog/multipleWebSocketServer.git"
+  },
+  "keywords": [
+    "websocket",
+    "multisocket",
+    "multiple",
+    "connection",
+    "multiple",
+    "websocket",
+    "multiconnection",
+    "websocket",
+    "socket"
+  ],
+  "author": "onvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vadosdog/multipleWebSocketServer/issues"
+  },
+  "homepage": "https://github.com/vadosdog/multipleWebSocketServer#readme"
 }
