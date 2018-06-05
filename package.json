@@ -9,7 +9,7 @@
     "request-promise": "^4.2.2"
   },
   "name": "multiple-websocket-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WebSocket Server with multi-channel support",
   "main": "index.js",
   "directories": {

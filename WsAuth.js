@@ -23,10 +23,10 @@ class WsAuth {
 	 */
 	handleConnection(client) {
 		const auth = client.channel.auth;
-		if (this.authDelay) {
+		if (auth.authDelay) {
 			client.timer = setTimeout(() => {
 				client.close();
-			}, this.authDelay);
+			}, auth.authDelay);
 		}
 		client.isAuthorized = false;
 
